@@ -15,6 +15,13 @@ This project is a fully-featured blogging platform built with the popular PHP la
 - Clean and Modern Layout
 - Lightweight and Fast
 
+## INSTALLATION :
+
+- Clone Or Download The Project
+- Find The DataBase.sql File In Project Directory
+- Import Database File In PHP My Admin
+- Open The Project On Browser
+
 ## TECHNOLOGY USED :
 
 ![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge)
@@ -25,11 +32,4 @@ This project is a fully-featured blogging platform built with the popular PHP la
 ![BOOTSTARP](https://img.shields.io/badge/BOOTSTARP-purple?style=for-the-badge)
 ![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-yellow?style=for-the-badge)
 ![JQUERY](https://img.shields.io/badge/JQUERY-black?style=for-the-badge)
-
-## INSTALLATION :
-
-- Clone Or Download The Project
-- Find The DataBase.sql File In Project Directory
-- Import Database File In PHP My Admin
-- Open The Project On Browser
   
