@@ -1,70 +1,35 @@
-<?php include 'header.php'; ?>
+## ABOUT THIS PROJECT :
 
-<div id="main-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <!-- post-container -->
-                <div class="post-container">
+This Is a Blog Site Project repository! 
+This project is a fully-featured blogging platform built with the popular PHP laguage. 
 
-                    <?php
+## FEATURES :
 
-                    include "config.php";
+- Authentication & Authorization
+- CRUD Functionality
+- Category Management
+- Admin Dashboard
+- SEO-Friendly
+- Search Functionality
+- Responsive Design
+- Clean and Modern Layout
+- Lightweight and Fast
 
-                    $post_id = $_GET['id'];
+## TECHNOLOGY USED :
 
-                    $sql = "SELECT 
-                        post.post_id, post.title, post.description, post.post_date, post.category, post.post_img,
-                        category.category_name, user.username
-                        FROM post 
-                        LEFT JOIN category ON post.category = category.category_id
-                        LEFT JOIN user ON post.author = user.user_id
-                        WHERE post.post_id = {$post_id}";
+![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge)
+![MySql](https://img.shields.io/badge/MySql-blue?style=for-the-badge)
+![AJAX](https://img.shields.io/badge/AJAX-black?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge)
+![BOOTSTARP](https://img.shields.io/badge/BOOTSTARP-purple?style=for-the-badge)
+![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-yellow?style=for-the-badge)
+![JQUERY](https://img.shields.io/badge/JQUERY-black?style=for-the-badge)
 
-                    $res = mysqli_query($conn, $sql) or die("QUERY FAILED");
+## INSTALLATION :
 
-                    if (mysqli_num_rows($res) > 0) {
-
-                        while ($row = mysqli_fetch_assoc($res)) {
-
-                    ?>
-                            <div class="post-content single-post">
-                                <h3 class="text-uppercase" ><?php echo $row['title'] ?></h3>
-                                <div class="post-information">
-                                    <span>
-                                        <i class="fa fa-tags" aria-hidden="true"></i>
-                                        <?php echo $row['category_name'] ?>
-                                    </span>
-                                    <span>
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <a href='author.php'><?php echo $row['username'] ?></a>
-                                    </span>
-                                    <span>
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        <?php echo $row['post_date'] ?>
-                                    </span>
-                                </div>
-                                <div class="sigle_image">
-                                    <img class="single-feature-image" src="admin/upload/<?php echo $row['post_img'] ?>" alt="" />
-                                </div>
-                                <p class="description">
-                                    <?php echo $row['description'] ?>
-                                </p>
-                            </div>
-
-                    <?php }
-                    } else {
-
-                        echo "<p style = 'color:red; text-align:center; margin: 10px 0' >NO DATA! </p>";
-                    }
-
-                    ?>
-
-                </div>
-                <!-- /post-container -->
-            </div>
-            <?php include 'sidebar.php'; ?>
-        </div>
-    </div>
-</div>
-<?php include 'footer.php'; ?>
+- Clone Or Download The Project
+- Find The DataBase.sql File In Project Directory
+- Import Database File In PHP My Admin
+- Open The Project On Browser
+  
