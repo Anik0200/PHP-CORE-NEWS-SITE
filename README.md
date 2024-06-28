@@ -25,7 +25,7 @@ This project is a fully-featured blogging platform built with the popular PHP la
 ## TECHNOLOGY USED :
 
 ![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge)
-![MySql](https://img.shields.io/badge/MySql-blue?style=for-the-badge)
+![MySql](https://img.shields.io/badge/MySql-green?style=for-the-badge)
 ![AJAX](https://img.shields.io/badge/AJAX-black?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge)
 ![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge)
