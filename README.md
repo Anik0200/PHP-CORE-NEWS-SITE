@@ -26,12 +26,12 @@ This project is a fully-featured blogging platform built with the popular PHP la
 
 ## TECHNOLOGY USED :
 
-![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge)
-![MySql](https://img.shields.io/badge/MySql-green?style=for-the-badge)
-![AJAX](https://img.shields.io/badge/AJAX-black?style=for-the-badge)
-![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge)
-![BOOTSTARP](https://img.shields.io/badge/BOOTSTARP-purple?style=for-the-badge)
-![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-yellow?style=for-the-badge)
-![JQUERY](https://img.shields.io/badge/JQUERY-black?style=for-the-badge)
-  
+- PHP
+- OOP
+- MySql
+- JAVASCRIPT
+- jQuery
+- AJAX
+- HTML
+- CSS
+- BOOTSTRAP
