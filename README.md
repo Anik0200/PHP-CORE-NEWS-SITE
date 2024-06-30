@@ -21,6 +21,8 @@ This project is a fully-featured blogging platform built with the popular PHP la
 - Find The DataBase.sql File In Project Directory
 - Import Database File In PHP My Admin
 - Open The Project On Browser
+- User Name: admin
+- Password: 12345
 
 ## TECHNOLOGY USED :
 
